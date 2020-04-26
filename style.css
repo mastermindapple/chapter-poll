@@ -22,4 +22,49 @@ button{
 
 #header{
     color: green;
+    font-family: 'Poppins';
+}
+#data{
+    height: 200px;
+    width: 250px;
+    background: url(crop-production-final.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#data:focus{
+    box-shadow: cyan 0px 0px 8px 0px;
+}
+#root{
+    height: 200px;
+    width: 250px;
+    background: url(microorganisms.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#root:focus{
+
+    box-shadow: cyan 0px 0px 8px 0px;
+}
+#quad{
+    height: 200px;
+    width: 250px;
+    background: url(metalsandnon.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#quad:focus{
+    box-shadow: cyan 0px 0px 8px 0px;
+}
+#choice{
+    font-family: 'Poppins';
+    color: blue;
+}
+#options{
+    font-family: 'Poppins';
 }
